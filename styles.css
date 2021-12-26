@@ -1,0 +1,72 @@
+
+#bodyelement{
+    font-family: "orbitron";
+    background: #00002E;
+    
+}
+#Header-1{
+    color: rgb(165,17,128);
+}
+#Header-2{
+    text-align: center;
+    color: rgb(165, 17, 128);
+    font-size: 65px;
+    
+}
+
+    
+    
+    
+
+
+.jackpot-element{
+    color:rgb(108, 185, 190);
+    font-size:30px;
+    
+}
+#introductory-text{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(240, 241, 255);
+}
+
+
+
+
+#form-one{
+    color:aliceblue;
+    font-size: x-large;
+    
+    
+   
+}
+#input-number {
+    background-color: black;
+    color: aliceblue;
+    margin-left:10mm;
+    height: 11mm;
+    width: 48mm;
+    font-size: larger;
+    border-color: black;
+    
+    
+    
+}
+#input-number-two{
+    
+    background-color: black;
+    color:aliceblue;
+    margin-left: 6.5mm;
+    height: 11mm;
+    width: 48mm;
+    font-size: larger;
+    border-color: black;
+}
+#labelOne{
+    margin: 35px;
+    margin-left: 15cm;
+}
+footer{
+    color: aliceblue;
+    text-align: center;
+}
