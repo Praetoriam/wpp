@@ -7,8 +7,8 @@ Colors:
 - Dark blue color(CSS): #00002E
 
 Fonts [from Google Fonts](https://fonts.google.com/): 
-- [Press Start 2P](https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap):
-- [Orbitron] (https://fonts.googleapis.com/css2?family=Orbitron&display=swap):
+- [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P?query=start):
+- [Orbitron](https://fonts.google.com/specimen/Orbitron?query=orbitron):
 
 
 
@@ -16,4 +16,4 @@ Fonts [from Google Fonts](https://fonts.google.com/):
 
 <br>
 <div>
-Praetoriam - R
+-Made by: Praetoriam - R
