@@ -5,6 +5,6 @@
 Colors:
 - Dark blue color(CSS): #00002E
 
-Fonts [From Google FOnts](https://fonts.google.com/): 
-- {@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap')} 
-- {@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap')}
+Fonts [From Google Fnts](https://fonts.google.com/): 
+- [Press Start 2P]('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap')
+- [Orbitron]'https://fonts.googleapis.com/css2?family=Orbitron&display=swap')
