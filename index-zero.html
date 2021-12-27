@@ -2,44 +2,69 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jackpot Game</title>
     <link rel = "stylesheet" href="styles.css">
+
+
+    
     
 
 </head>
 <body id="bodyelement">
-<script src = "JS-script.js"></script>
+
+
 <h1 id="Header-1">Lottery Game v.1.0</h1>
-<h2 id = "Header-2">Welcome!</h2>
+<h2 id = "Header-two">WELCOME</h2>
 <main>
 <p id = "introductory-text">
 To play this game, you need to introduce two numbers, if the sum of your numbers is equal to the <span class="jackpot-element"> LUCKY NUMBER</span>
 you win the game.
-<br>
-You can try as many times as you want, keep in mind tho, the <span class="jackpot-element">LUCKY NUMBER</span> is random and changes every time you play.
+<div id="div-text">
+You can try as many times as you want, just reload the page. But remember, the <span class="jackpot-element">LUCKY NUMBER</span> is random and changes every time you reload.
+</div>
 </p>
+<p>
 
+</p>
+<!--Hide this item, create a button to toggle the display-->
+<div class="hidden-item">
 <form method="get" id="form-one">
     <div id="labelOne">
     <label for="number" id="label-one">ENTER FIRST NUMBER 
     <input type="" name="number" id="input-number" required >
     </label>
     </div>
+    <div id="labelTwo">
     <label id="label-two"for="number">ENTER SECOND NUMBER</label>
     <input type="" name="number" id="input-number-two" required >
+    </div>
+    <div id="labelThree">
+        <label id="label-three" >WINNER?</label>
+        <input id="input-number-three" disabled  >
+
+    </div>
+    <div id="labelFour">
+        <label id="label-four" >RESULT</label>
+        <input id="input-number-four" disabled >
+
+    </div>
 </form>
 
-
-
-
-<div id="button-one-container">
-
-
-
-
+<div>
+    <button type="button" class="button" id="sumButton" onclick="addition()">START</button>
 </div>
+</div>
+
+
+
+
+
+
+
+<!---Use the Javascript reveal function-->
+<p>Reveal hint:</p>
+<p>Use a PS4 or an XBOX to find the number</p>
 </main>
 
 <footer>
@@ -49,5 +74,6 @@ You can try as many times as you want, keep in mind tho, the <span class="jackpo
     GitHub : Praetoriam
     </p>
 </footer>
+<script src = "JS-script.js"></script>
 </body>
 </html>
