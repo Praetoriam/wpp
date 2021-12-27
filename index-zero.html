@@ -11,12 +11,13 @@
     
 
 </head>
-<body id="bodyelement">
+<body id="bodyelement" onload="deletefunction()">
 
 
 <h1 id="Header-1">Lottery Game v.1.0</h1>
 <h2 id = "Header-two">WELCOME</h2>
 <main>
+<button type="button" id="hiddenButton">START GAME</button>
 <p id = "introductory-text">
 To play this game, you need to introduce two numbers, if the sum of your numbers is equal to the <span class="jackpot-element"> LUCKY NUMBER</span>
 you win the game.
@@ -32,21 +33,21 @@ You can try as many times as you want, just reload the page. But remember, the <
 <form method="get" id="form-one">
     <div id="labelOne">
     <label for="number" id="label-one">ENTER FIRST NUMBER 
-    <input type="" name="number" id="input-number" required >
+    <input type="" name="number" id="input-number" class="input-text" required >
     </label>
     </div>
     <div id="labelTwo">
     <label id="label-two"for="number">ENTER SECOND NUMBER</label>
-    <input type="" name="number" id="input-number-two" required >
+    <input type="" name="number" id="input-number-two" class="input-text" required >
     </div>
     <div id="labelThree">
-        <label id="label-three" >WINNER?</label>
-        <input id="input-number-three" disabled  >
+        <label id="label-three" >RESULT</label>
+        <input id="input-number-three" class="input-text" disabled  >
 
     </div>
     <div id="labelFour">
-        <label id="label-four" >RESULT</label>
-        <input id="input-number-four" disabled >
+        <label id="label-four" >WINNER?</label>
+        <input id="input-number-four" class="input-text" disabled >
 
     </div>
 </form>
