@@ -29,3 +29,4 @@ function deletefunction(){
     x[2].value="";
     x[3].value="";
 }
+

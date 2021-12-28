@@ -6,7 +6,7 @@
 Colors:
 - Dark blue color(CSS): #00002E
 
-Fonts [from Google Fonts](https://fonts.google.com/): 
+Fonts from[Google Fonts](https://fonts.google.com/): 
 - [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P?query=start):
 - [Orbitron](https://fonts.google.com/specimen/Orbitron?query=orbitron):
 

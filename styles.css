@@ -7,27 +7,21 @@
     background: #00002E;
     
 }
+
 #Header-1{
     color: rgb(165,17,128);
 
 }
-.myfunction{
-    text-align: center;
-    color: azure;
-}
+
+
 #Header-two{
     text-align: center;
     color: rgb(165, 17, 128);
     font-size: 65px;
-    
 }
-
-
-
 .jackpot-element{
     color:rgb(108, 185, 190);
-    font-size:30px;
-    
+    font-size:30px; 
 }
 #introductory-text{
     text-align: center;
@@ -40,10 +34,6 @@
     color: rgb(240, 241, 255);
 
 }
-
-
-
-
 #form-one{
     color:aliceblue;
     font-size: x-large;
@@ -150,7 +140,41 @@
   transform: translateY(4px);
 }
 
-footer{
+#gitButton{
+    margin-left: 22.4cm;
+    font-size: large;
+    position: relative;
+    background-color: #00002E;
+    color: bisque;
+    font-family: "Orbitron";
+    transition-duration: 200ms;
+    background: #00002E;
+    padding: 5px 10px;
+    border-radius: 12px;
+    border-style:inherit;
+
+    
+    
+}
+#gitButton:hover{
+    background-color: rgb(196, 131, 34);
+}
+#gitBUtton:active{
+background-color: rgb(223, 63, 23);
+box-shadow: 0 5px rgb(62, 44, 185);
+transform: translateY(8px);
+}
+#footer-text{
+    font-size: 5mm;
     color: aliceblue;
     text-align: center;
+    -moz-background-clip: text;
+    -moz-text-decoration-color: transparent;
+    text-decoration-color: transparent;
+    background-clip:text;
+
+    
+ background: -webkit-linear-gradient(rgb(232, 245, 236), rgb(63, 192, 38),rgb(229, 255, 0),rgb(150, 37, 43));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
