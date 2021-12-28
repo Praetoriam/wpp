@@ -1,6 +1,8 @@
-@import 
-url('https://fonts.googleapis.com/css2?family=Orbitron&family=Press+Start+2P&family=Vujahday+Script&family=Yuji+Hentaigana+Akari&display=swap');
+/*Use this styles if you use Ubuntu or other Linux distro*/
 
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 
 #bodyelement{
@@ -8,16 +10,13 @@ url('https://fonts.googleapis.com/css2?family=Orbitron&family=Press+Start+2P&fam
     background: #00002E;
     
 }
-#hiddenDiv{
-    display: none;
-}
 
 #Header-1{
     color: rgb(165,17,128);
 
 }
-#strong-text{
-    color: rgb(13, 138, 13);
+.input-text{
+    font-family: "Orbitron";
 }
 
 
@@ -96,12 +95,7 @@ url('https://fonts.googleapis.com/css2?family=Orbitron&family=Press+Start+2P&fam
     border-color: rgb(90, 161, 126);
     border-style:ridge;
     border-width: 1.5mm;
-    position: relative;
-    top: 1.5cm;
-    margin-left: -4cm;
-}
-.input-text{
-    font-family: "orbitron";
+
 }
 #labelOne{
     margin: 35px;
@@ -120,9 +114,9 @@ url('https://fonts.googleapis.com/css2?family=Orbitron&family=Press+Start+2P&fam
 #labelFour{
     margin: 35px;
     margin-left: 1cm;
-    margin-bottom: 8cm;
+    margin-bottom: 15cm;
     position: relative;
-    top:2cm;
+    top:5cm;
     
 
     
@@ -130,7 +124,7 @@ url('https://fonts.googleapis.com/css2?family=Orbitron&family=Press+Start+2P&fam
 #sumButton{
     margin-left: 20cm;
     position:relative;
-    top: -605px;
+    top: -845px;
     font-size: 12mm;
     transition-duration: 150ms;
     font-family: 'Press Start 2P';
@@ -153,10 +147,9 @@ url('https://fonts.googleapis.com/css2?family=Orbitron&family=Press+Start+2P&fam
 }
 
 #gitButton{
-    margin-left: 20cm;
+    margin-left: 22.4cm;
     font-size: large;
     position: relative;
-    top: -46px;
     background-color: #00002E;
     color: bisque;
     font-family: "Orbitron";
@@ -185,59 +178,9 @@ transform: translateY(8px);
     -moz-text-decoration-color: transparent;
     text-decoration-color: transparent;
     background-clip:text;
-    margin-right: 5cm;
 
     
  background: -webkit-linear-gradient(rgb(232, 245, 236), rgb(63, 192, 38),rgb(229, 255, 0),rgb(150, 37, 43));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-#LetterR{
-
-    font-size: 8cm;
-    opacity: 0.3;
-    color: yellowgreen;
-    font-family: "Yuji Hentaigana Akari";
-    display:none;
-    position: relative;
-    margin-left: 30cm;
-
-}
-#hatty{
-    opacity: 0.3;
-    color:red;
-    display: none;
-    font-size: 100px;
-    margin-left:31cm;
-    position:relative;
-    top: 3cm;
-    
-}
-#hat-letter{
-    position: relative;
-    top: -10cm;
-    margin-left: -5cm;
-   
-}
-footer{
-    position: relative;
-    top: 2.5cm;
-    
-    
-}
-#thanks-box{
-    font-size: 3cm;
-    color: aqua;
-    
-}
-
-#like_button_container{
-    color: aliceblue;
-    padding: 12px 28px;
-    font-size: 5cm;
-    background-color: #00002E;
-    background: #00002E
-}
-#ThanksButton{
-  color:red;
 }

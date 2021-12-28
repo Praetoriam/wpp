@@ -1,4 +1,4 @@
-#This is a list of colors and other resources I used for the webpage.
+# This is a list of colors and other resources I used for the webpage.
 <br>
 
 

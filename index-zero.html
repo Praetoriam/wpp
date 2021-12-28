@@ -5,29 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jackpot Game</title>
     <link rel = "stylesheet" href="styles.css">
-
-
     
-    
-
+   
+<script src="https://kit.fontawesome.com/f932540124.js" crossorigin="anonymous"></script>
 </head>
 <body id="bodyelement" onload="deletefunction()">
 
 
-<h1 id="Header-1">Lottery Game v.1.0</h1>
+<h2 id="Header-1">Lottery Game v.1.0 (stable)</h2>
 <h2 id = "Header-two">WELCOME</h2>
 <main>
+    
 
 <p id = "introductory-text">
 To play this game, you need to introduce two numbers, if the sum of your numbers is equal to the <span class="jackpot-element"> LUCKY NUMBER</span>
 you win the game.
 <div id="div-text">
 You can try as many times as you want, just reload the page. But remember, the <span class="jackpot-element">LUCKY NUMBER</span> is random and changes every time you reload.
+<br>
+<strong id ="strong-text">There is a hint on the right corner (altought you need to think a little to decipher it!) </strong> 
 </div>
 </p>
 <button type="button" id="hiddenButton">START GAME</button>
 <!--Hide this item, create a button to toggle the display-->
-<div id="hidden-item">
+<div id="hiddenDiv">
 <form method="get" id="form-one">
     <div id="labelOne">
     <label for="number" id="label-one">ENTER FIRST NUMBER 
@@ -48,11 +49,24 @@ You can try as many times as you want, just reload the page. But remember, the <
         <input id="input-number-four" class="input-text" disabled >
         </div>
 
+ 
+        
+
 </div>
 </form>
 
 <div>
     <button type="button" class="button" id="sumButton" onclick="addition()">START</button>
+   
+</div>
+
+<div id="hat-letter">
+    
+    <i id="hatty" class="fas fa-hat-wizard"  ></i>
+    <span id="LetterR" style="color: rgb(153, 150, 161);">&#82;</span>
+</div>
+<div id="thanks-box">
+    <p>THANKS FOR VISITING!</p>
 </div>
 </div>
 
@@ -63,10 +77,11 @@ You can try as many times as you want, just reload the page. But remember, the <
 
 
 <!---Use the Javascript reveal function-->
-<p>Reveal hint:</p>
-<p>Use a PS4 or an XBOX to find the number</p>
-</main>
 
+
+
+<span id="LetterR" style="color: rgb(153, 150, 161);">&#82;</span>
+<button id="ThanksButton">Button</button>
 <footer>
     <p id="footer-text">
     MADE BY R.
@@ -75,6 +90,14 @@ You can try as many times as you want, just reload the page. But remember, the <
  </div>
     </p>
 </footer>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src = "JS-script.js"></script>
+
+</main>
+
+
 </body>
+
 </html>

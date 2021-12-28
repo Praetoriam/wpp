@@ -1,4 +1,5 @@
 
+
 var jackpotnumber = Math.floor(Math.random() * 501);
 console.log(`Lucky number is: ${jackpotnumber}`);
 function addition() {
@@ -8,7 +9,7 @@ function addition() {
     const sum = parseInt(elmnt1) + parseInt(elmnt2);
     let total = document.getElementById('input-number-three').value = sum;
     let result = document.getElementById('input-number-four')
-    let nan = Number(undefined);
+
   
     if (total == jackpotnumber) {
    
@@ -29,4 +30,19 @@ function deletefunction(){
     x[2].value="";
     x[3].value="";
 }
+//JQuery is useful here (lest you wanna write 5 lines for a toggle function)//
+
+$("#hiddenButton").click(function () {
+    $("#hiddenDiv").fadeToggle();
+    $("#LetterR").fadeToggle();
+    $("#hatty").fadeToggle();
+})
+$("#ThanksButton").click(function () {
+    $("#thanks-box").fadeToggle();
+    $("ThanksButton").fadeToggle();
+   
+})
+
+
+
 
