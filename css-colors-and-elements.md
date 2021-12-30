@@ -12,9 +12,4 @@
 - [Orbitron](https://fonts.google.com/specimen/Orbitron?query=orbitron)
 - [Yuji Hentaigana Akari](https://fonts.google.com/specimen/Yuji+Hentaigana+Akari?query=orbitron)
 - [Permanent Marker](https://fonts.google.com/specimen/Permanent+Marker?query=orbitron)
-
-<br>
-<div>
-<center>
-Made by: R 
-</center>
+- [Patua Two]()

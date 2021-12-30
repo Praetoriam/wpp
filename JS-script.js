@@ -1,7 +1,6 @@
-
+// Addition function//
 var jackpotnumber = Math.floor(Math.random() * 501);
 function addition() {
-  
   const elmnt1 = document.getElementById("input-number").value;
   const elmnt2 = document.getElementById("input-number-two").value;
   let result = document.getElementById("input-number-four");
@@ -14,7 +13,7 @@ function addition() {
     result.value = "Sorry, you did not win.";
   }
 }
-// This is the restart function, I know, how does it even reloads the page.//
+// This is the restart function. I know, how does it even reloads the page?.//
 // It happened when I changed the input element requirements//
 // It was intended to be a 'CLEAR' button, but well, it ended up being the restart one//
 
@@ -26,16 +25,22 @@ function deletefunction() {
   x[3].value = "";
 }
 
+// Fade function //
 //JQuery is useful here (lest you wanna write 20 lines for a toggle function)//
 
 $("#hiddenButton").click(function () {
   $("#hiddenDiv").fadeToggle(1000);
   $("#sumButton").fadeToggle(1000);
-  $("#hiddenButton").fadeToggle(1000);
+  $(this).fadeToggle(1000);
 });
 $("#Liked-Button").click(function () {
   $("#thanks-text").fadeToggle(1000);
 });
+
+$("#hint-button").click(function () {
+  $("#hint-text").fadeToggle(2000);
+}
+)
 
 //Haven't mastered it yet tho//
 

@@ -1,9 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&family=Orbitron&family=Patua+One&family=Permanent+Marker&family=Press+Start+2P&family=Sigmar+One&family=Yuji+Hentaigana+Akari&display=swap");
+@import 
+url("https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&family=Orbitron&family=Patua+One&family=Permanent+Marker&family=Press+Start+2P&family=Sigmar+One&family=Yuji+Hentaigana+Akari&display=swap");
 
 #bodyelement {
   font-family: "orbitron";
   background: #00002e;
   margin-bottom: 0cm;
+}
+#main-div{
+  position: relative;
+  top: -1cm;
+  margin-bottom: -1cm;
+  
+  
 }
 
 #hiddenDiv {
@@ -28,7 +36,7 @@
 }
 #strong-text {
   color: rgb(13, 138, 13);
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 #Header-two {
   text-align: center;
@@ -49,19 +57,21 @@
   text-align: center;
   font-size: 30px;
   color: rgb(240, 241, 255);
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 #div-text {
   text-align: center;
   font-size: 30px;
   color: rgb(240, 241, 255);
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 #form-one {
   color: aliceblue;
   font-size: x-large;
   margin-top: 5cm;
 }
+
+
 #input-number {
   background-color: black;
   color: aliceblue;
@@ -152,6 +162,11 @@
   position: relative;
   top: -7.1cm;
 }
+#hint-div{
+  position: relative;
+  left: auto;
+  top: -1cm;
+}
 #clear-button {
   font-size: 12mm;
   transition-duration: 150ms;
@@ -173,6 +188,24 @@
   background-color: rgb(167, 121, 36);
   box-shadow: 0 5px rgb(4, 1, 24);
   transform: translateY(4px);
+}
+#hint-text{
+  color: aliceblue;
+  position: relative;
+  top:-0.2cm;
+  left: 17cm;
+  font-size: 6mm;
+  display: none;
+
+}
+#hint-button{
+  background-color: rgb(212, 196, 47);
+  position: relative;
+  left: 30cm;
+  top: -0.5cm;
+  font-size: xx-large;
+  font-family: "Sigmar one";
+  padding: 4 5;
 }
 
 #Liked-Button {
@@ -196,7 +229,9 @@
   margin-left: 20cm;
   font-size: large;
   position: relative;
-  top: -46px;
+  top: -0.5cm;
+
+ 
   background-color: #00002e;
   color: bisque;
   font-family: "Orbitron";
@@ -220,10 +255,11 @@
   margin-left: 13cm;
 
   background-color: #00002e;
-  color: rgb(223, 226, 225);
+  color: rgb(228, 209, 209);
   border-style: solid;
   transition-duration: 1s;
   border-radius: 12px;
+  text-decoration: solid;
 
   font-family: "permanent marker";
   padding: 4 12px;
@@ -232,16 +268,16 @@
 #hiddenButton:hover {
   background-image: radial-gradient(
     circle,
-    rgba(51, 48, 205, 1) 0%,
-    rgb(150, 195, 27) 0%,
-    rgba(209, 142, 59, 1) 100%,
-    rgba(21, 14, 209, 1) 100%
+    rgba(209, 14, 14, 1) 0%,
+    rgba(35, 124, 131, 1) 0%,
+    rgba(31, 27, 148, 1) 97%,
+    rgba(14, 209, 194, 1) 100%
   );
   animation: slider 9s linear infinite;
 }
 @keyframes slider {
   to {
-    background-position: 200vw;
+    background-position: 100vw;
   }
 }
 
@@ -254,6 +290,8 @@
   text-decoration-color: transparent;
   background-clip: text;
   margin-right: 5cm;
+  position: relative;
+  top: 0.80cm;
 
   background: -webkit-linear-gradient(
     rgb(232, 245, 236),
@@ -264,3 +302,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+#footer-element{
+  position: relative;
+  
+}
+/* YES */
