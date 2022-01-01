@@ -4,7 +4,7 @@
 
 <br>
 
-### It is an improved and online version of the Java swing applet.
+### It is an improved and online version of the Java swing applet I made a few weeks ago.
 
 <br>
 

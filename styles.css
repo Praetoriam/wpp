@@ -307,5 +307,7 @@
 }
 #footer-element {
   position: relative;
+  
+  left: 1.25cm;
 }
 /* YES */
