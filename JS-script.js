@@ -13,12 +13,8 @@ function addition() {
     result.value = "Sorry, you did not win.";
   }
 }
-// This is the restart function. I know, how does it even reloads the page?.//
-// It happened when I changed the input element attributes//
-// It was intended to be a 'CLEAR' button, but well, it ended up being the restart one//
-// You know what they say, it's not a bug, it's a feature (hopefully it doesn't break anything in the future)//
-// If that were to happen, I could just build an actual reload function//
 
+// Clear function //
 function deletefunction() {
   let x = document.getElementsByClassName("input-text");
   x[0].value = "";
@@ -57,6 +53,6 @@ function typewriter() {
   document.querySelector("#Header-two").innerHTML =
     textArray[0].substring(0, textPosition) +
     "<span id='int-span'>\u007c</span>";
-  if (textPosition++ != textArray[0].length) setTimeout(typewriter, 150);
+  if (textPosition++ != textArray[0].length) setTimeout(typewriter, speed);
 }
 window.addEventListener("load", typewriter);
