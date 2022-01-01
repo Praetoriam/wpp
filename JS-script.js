@@ -7,15 +7,17 @@ function addition() {
   let total = document.getElementById("input-number-three");
   const sum = parseInt(elmnt1) + parseInt(elmnt2);
   total.value = sum;
-  if (total == jackpotnumber) {
+  if (sum == jackpotnumber) {
     result.value = "YOU WIN!!";
-  } else if (total != jackpotnumber) {
+  } else if (sum != jackpotnumber) {
     result.value = "Sorry, you did not win.";
   }
 }
 // This is the restart function. I know, how does it even reloads the page?.//
-// It happened when I changed the input element requirements//
+// It happened when I changed the input element attributes//
 // It was intended to be a 'CLEAR' button, but well, it ended up being the restart one//
+// You know what they say, it's not a bug, it's a feature (hopefully it doesn't break anything in the future)//
+// If that were to happen, I could just build an actual reload function//
 
 function deletefunction() {
   let x = document.getElementsByClassName("input-text");
@@ -39,8 +41,7 @@ $("#Liked-Button").click(function () {
 
 $("#hint-button").click(function () {
   $("#hint-text").fadeToggle(2000);
-}
-)
+});
 
 //Haven't mastered it yet tho//
 

@@ -11,82 +11,80 @@
     <script src="https://kit.fontawesome.com/f932540124.js" crossorigin="anonymous"></script>
 </head>
 
-<body id="bodyelement" >
+<body id="bodyelement">
 
 
     <h2 id="Header-1">Lottery Game v.1.0.9 (stable)</h2>
-  <div id="hint-div">  
-    <button id="hint-button">NEED A HINT?</button>
-    <br>
-    <span id="hint-text">You can find the lucky number inside a PS4 or a Nintendo Switch.</span>
-</div>
-<div id="main-div">
-    <h2 id="Header-two">
-       
-    </h2>
- 
+    <div id="hint-div">
+        <button id="hint-button">NEED A HINT?</button>
+        <br>
+        <span id="hint-text">You can find the lucky number inside a PS4 or a Nintendo Switch.</span>
+    </div>
+    <div id="main-div">
+        <h2 id="Header-two">
+
+        </h2>
+
         <div id="div-test" class="sneaky">
 
-        <p id="introductory-text">
-            To play this game, you need to introduce two numbers, if the sum of your numbers is equal to the <span
-                class="jackpot-element"> LUCKY NUMBER</span>
-            you win the game.
-        <div id="div-text">
-            You can try as many times as you want, just press RESTART. But remember, the <span
-                class="jackpot-element">LUCKY NUMBER</span> is random and changes every time you restart.
-           
+            <p id="introductory-text">
+                To play this game, you need to introduce two numbers, if the sum of your numbers is equal to the <span
+                    class="jackpot-element"> LUCKY NUMBER</span>
+                you win the game.
+            <div id="div-text">
+                You can try as many times as you want. GOOD LUCK.
+            </div>
+            </p>
         </div>
-        </p>
-</div>
         <br>
         <button type="button" id="hiddenButton">START GAME</button>
         <!--Hide this item, create a button to toggle the display-->
         <div id="hiddenDiv">
-            <form  id="form-one"  >
+            <form id="form-one">
                 <div id="labelOne">
-                    <label for="number" id="label-one">ENTER FIRST NUMBER
-                        <input  name="number" id="input-number" class="input-text"   />
+                    <label id="label-one">ENTER FIRST NUMBER
+                        <input id="input-number" class="input-text" />
                     </label>
                 </div>
                 <div id="labelTwo">
-                    <label id="label-two" for="number">ENTER SECOND NUMBER</label>
-                    <input  name="number" id="input-number-two" class="input-text"  />
+                    <label id="label-two">ENTER SECOND NUMBER</label>
+                    <input id="input-number-two" class="input-text" />
                 </div>
                 <div id="labelThree">
                     <label id="label-three">RESULT</label>
-                    <input id="input-number-three" class="input-text" disabled >
-                    <button id="clear-button" onclick="deletefunction()">RESTART </button>
- <button type="button" class="button" id="sumButton" onclick="addition()">START</button>
+                    <input id="input-number-three" class="input-text">
+                    <button id="clear-button" onclick="deletefunction()" type="button">CLEAR</button>
+                    <button type="button" class="button" id="sumButton" onclick="addition()">START</button>
                 </div>
                 <div id="labelFour">
                     <label id="label-four">WINNER?</label>
                     <input id="input-number-four" class="input-text" disabled>
-                    
+
                 </div>
                 <p id="thanks-text">
                     THANK YOU FOR VISITING!
                 </p>
-                
 
 
 
-       
-        </form>
-        <button id="Liked-Button">PRESS ME :3</button>
-     </div>     
-</div>
-        <!---Use the Javascript reveal function-->
-<footer id="footer-element">
-    <p id="footer-text">
-    MADE BY R.
-  </p>
-<button id="gitButton" type="button" onclick="location.href='https://github.com/Praetoriam';">My GitHub</button>
 
-  
-</footer>   
-        
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="JS-script.js"></script>
+
+            </form>
+            <button id="Liked-Button">PRESS ME :3</button>
+        </div>
+    </div>
+    <!---Use the Javascript reveal function-->
+    <footer id="footer-element">
+        <p id="footer-text">
+            MADE BY R.
+        </p>
+        <button id="gitButton" type="button" onclick="location.href='https://github.com/Praetoriam';"><img src="GitHub-Mark-Light-32px.png"></img></button>
+
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="JS-script.js"></script>
 
 
 

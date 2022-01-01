@@ -12,7 +12,7 @@
 
 <br>
 
-### I know it looks a bit messy (the CSS in particular). I'll use more versatile technologies for future projects.
+### I know it looks a bit messy (the CSS in particular). I'll use more versatile technologies in future projects.
 
 <br>
 
