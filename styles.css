@@ -31,6 +31,9 @@
   position: relative;
   opacity: 0.6;
 }
+#linux-alert{
+  font-size: medium;
+}
 #strong-text {
   color: rgb(13, 138, 13);
   text-transform: uppercase;
@@ -40,6 +43,7 @@
   color: rgb(165, 17, 128);
   font-size: 65px;
 }
+
 .jackpot-element {
   color: rgb(108, 185, 190);
   font-size: 30px;
