@@ -56,3 +56,11 @@ function typewriter() {
   if (textPosition++ != textArray[0].length) setTimeout(typewriter, speed);
 }
 window.addEventListener("load", typewriter);
+
+// F //
+
+$(document).keypress(function(e){
+  if (e.which == 13){
+    $("#sumButton").click();
+  }
+})
